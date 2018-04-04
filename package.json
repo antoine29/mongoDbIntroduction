@@ -1,0 +1,24 @@
+{
+  "name": "mongodbintroduction",
+  "version": "1.0.0",
+  "description": "introduccion a mongoDB con nodeJs y express. NucleoGnuLinux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoine29/mongoDbIntroduction.git"
+  },
+  "keywords": [
+    "mongoDB",
+    "nodeJS",
+    "express"
+  ],
+  "author": "Anthony Flores Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoine29/mongoDbIntroduction/issues"
+  },
+  "homepage": "https://github.com/antoine29/mongoDbIntroduction#readme"
+}

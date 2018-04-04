@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>mongoDBintro</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<div>
+						<h1>mongoDB intro</h1>
+						<h3>introduccion a base de datos noSQL con mongoDB</h3>
+						<p>
+							<small>por <a href="http://hakim.se">Anthony Flores Gomez</a> </small>
+							<br>
+							<small><a href="http://hakim.se">Nucleo GNU Linux</a> </small>
+							<br>
+							<img src="nucleo.jpg" height="200" width="200">
+						</p>	
+					</div>
+				</section>
+
+				<section>
+					<section>
+						<h2>Base de datos</h2>
+					</section>
+					<section>
+						<img src="bd.PNG" alt="">
+						<p><blockquote>&ldquo;
+							Es una coleccion de datos relacionados o informacion, que es almacenada, modificada y transmitida. Se utiliza el lenguaje SQL para acceder a la informacion.
+							&rdquo;</blockquote></p>
+					</section>
+				</section>
+
+				<section>	
+					<section>
+						<h2>Modelo relacional</h2>
+					</section>
+					<section>
+						<img src="img3.gif" alt="">
+						<p><blockquote>&ldquo;
+							Una base de datos relacional es una colección de elementos de datos organizados en un conjunto de tablas formalmente descritas desde la que se puede acceder a los datos.
+							&rdquo;</blockquote>
+						</p>
+					</section>
+					<section>
+						<img src="img4.jpg" alt="">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>noSQL</h2>
+						<img src="img5.png" alt="">
+						<blockquote>
+							&ldquo;Son BDs que no utlizan el modelo relacional (tablas) ni el lenguaje de consultas SQL. Utilizan diversas estructuras y no necesitan de un modelo de datos predefinido.&rdquo;
+						</blockquote>
+					</section>
+					<section>
+						<img src="img6.gif" alt="">
+					</section>
+					<section>
+						<img src="img7.png" alt="">
+					</section>
+					<section>
+						<img src="img8.png" alt="">
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>MongoDB</h2>
+						<img src="img9.png" alt="">
+					</section>
+					<section>
+						<img src="img10.png" alt="">
+					</section>
+					<section>
+						<img src="img11.png" alt="">
+					</section>
+				</section>
+
+				<section>
+					<h1>CODE!</h1>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
